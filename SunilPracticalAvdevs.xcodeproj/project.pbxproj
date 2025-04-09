@@ -11,6 +11,7 @@
 		BC1916992DA5814B00B9D341 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1916982DA5814B00B9D341 /* CountryDetailViewController.swift */; };
 		BC19169F2DA5862E00B9D341 /* BorderCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19169D2DA5862E00B9D341 /* BorderCountryTableViewCell.swift */; };
 		BC1916A02DA5862E00B9D341 /* BorderCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC19169E2DA5862E00B9D341 /* BorderCountryTableViewCell.xib */; };
+		BC9C5D662DA6D2420091E627 /* AppData.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC9C5D652DA6D2420091E627 /* AppData.swift */; };
 		BCB13BE62DA5707700F6DC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BE52DA5707700F6DC31 /* AppDelegate.swift */; };
 		BCB13BE82DA5707700F6DC31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BE72DA5707700F6DC31 /* SceneDelegate.swift */; };
 		BCB13BED2DA5707700F6DC31 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCB13BEC2DA5707700F6DC31 /* Base */; };
@@ -32,6 +33,7 @@
 		BC1916982DA5814B00B9D341 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
 		BC19169D2DA5862E00B9D341 /* BorderCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderCountryTableViewCell.swift; sourceTree = "<group>"; };
 		BC19169E2DA5862E00B9D341 /* BorderCountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BorderCountryTableViewCell.xib; sourceTree = "<group>"; };
+		BC9C5D652DA6D2420091E627 /* AppData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppData.swift; path = Utilities/AppData.swift; sourceTree = "<group>"; };
 		BCB13BE22DA5707700F6DC31 /* SunilPracticalAvdevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunilPracticalAvdevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCB13BE52DA5707700F6DC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		BCB13BE72DA5707700F6DC31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -108,6 +110,7 @@
 		BCB13BE42DA5707700F6DC31 /* SunilPracticalAvdevs */ = {
 			isa = PBXGroup;
 			children = (
+				BC9C5D652DA6D2420091E627 /* AppData.swift */,
 				BC1916972DA5810600B9D341 /* Country Detail ViewController */,
 				BCB13C032DA5720400F6DC31 /* CountryList ViewController */,
 				BCB13C002DA5719300F6DC31 /* Response Model */,
@@ -287,6 +290,7 @@
 				BCB13BFD2DA5712100F6DC31 /* AllApiList.swift in Sources */,
 				BCB13C052DA5724800F6DC31 /* CountryListViewController.swift in Sources */,
 				BCB13BFF2DA5712900F6DC31 /* RequestHelper.swift in Sources */,
+				BC9C5D662DA6D2420091E627 /* AppData.swift in Sources */,
 				BCB13C092DA572EC00F6DC31 /* CountryListTableViewCell.swift in Sources */,
 				BCB13BE62DA5707700F6DC31 /* AppDelegate.swift in Sources */,
 				BC1916992DA5814B00B9D341 /* CountryDetailViewController.swift in Sources */,

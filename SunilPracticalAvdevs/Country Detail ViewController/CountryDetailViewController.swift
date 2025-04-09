@@ -39,25 +39,23 @@ class CountryDetailViewController: UIViewController {
     //MARK: - Setup Country Detail Data
     func setupCountryDetailData(){
         
-        lblCountryName.text = "Country Name: \(objCountryElement?.name.common ?? "")"
-        lblPopulation.text = "Population: \(objCountryElement?.population ?? 0)"
-        lblCapital.text = "Capital: \(objCountryElement?.capital.first ?? "")"
-        lblRegion.text = "Region: \(objCountryElement?.region ?? "")"
-        lblCurrency.text = "Currency: \(objCountryElement?.currencies.first?.value.name ?? "") (\(objCountryElement?.currencies.first?.value.symbol ?? ""))"
-        
+//        lblCountryName.text = "Country Name: \(objCountryElement?.name.common ?? "")"
+//        lblPopulation.text = "Population: \(objCountryElement?.population ?? 0)"
+//        lblCapital.text = "Capital: \(objCountryElement?.capital.first ?? "")"
+//        lblRegion.text = "Region: \(objCountryElement?.region ?? "")"
+//        lblCurrency.text = "Currency: \(objCountryElement?.currencies.first?.value.name ?? "") (\(objCountryElement?.currencies.first?.value.symbol ?? ""))"
 //        
-//        let red = "red"
-//        let blue = "blue"
-//        let green = "green"
-//        let stringValue = "\(red) \(blue) \(green)"
-//        lblCountryName.textColor = UIColor.lightGray
-//        let attributedString: NSMutableAttributedString = NSMutableAttributedString(string: stringValue)
-//
-//        attributedString.setColor(color: UIColor.red, forText: red)   // or use direct value for text "red"
-//        attributedString.setColor(color: UIColor.blue, forText: blue)   // or use direct value for text "blue"
-//        attributedString.setColor(color: UIColor.green, forText: green)   // or use direct value for text "green"
-//        lblCountryName.font = UIFont.systemFont(ofSize: 26)
-//        lblCountryName.attributedText = attributedString
+
+        self.lblCountryName.attributedText = AppData.setLabelMultipleColor(firstText: "Country Name: ", secondText: "\(objCountryElement?.name.common ?? "")", firstColor: UIColor.blue, secondColor: UIColor.black)
+        
+        self.lblPopulation.attributedText = AppData.setLabelMultipleColor(firstText: "Population: ", secondText: "\(objCountryElement?.population ?? 0)", firstColor: UIColor.blue, secondColor: UIColor.black)
+        
+        self.lblCapital.attributedText = AppData.setLabelMultipleColor(firstText: "Capital: ", secondText: "\(objCountryElement?.capital.first ?? "")", firstColor: UIColor.blue, secondColor: UIColor.black)
+        
+        self.lblRegion.attributedText = AppData.setLabelMultipleColor(firstText: "Region: ", secondText: "\(objCountryElement?.region ?? "")", firstColor: UIColor.blue, secondColor: UIColor.black)
+        
+        self.lblCurrency.attributedText = AppData.setLabelMultipleColor(firstText: "Capital: ", secondText: "\(objCountryElement?.currencies.first?.value.name ?? "") (\(objCountryElement?.currencies.first?.value.symbol ?? ""))", firstColor: UIColor.blue, secondColor: UIColor.black)
+        
         
         
     }
