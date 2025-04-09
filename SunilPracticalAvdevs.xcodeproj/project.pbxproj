@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9138DC620B6F13D0FF05DB6F /* Pods_SunilPracticalAvdevs.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 239ADC1EFF2A19150AB1EAB0 /* Pods_SunilPracticalAvdevs.framework */; };
+		BC1916992DA5814B00B9D341 /* CountryDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC1916982DA5814B00B9D341 /* CountryDetailViewController.swift */; };
+		BC19169F2DA5862E00B9D341 /* BorderCountryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BC19169D2DA5862E00B9D341 /* BorderCountryTableViewCell.swift */; };
+		BC1916A02DA5862E00B9D341 /* BorderCountryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC19169E2DA5862E00B9D341 /* BorderCountryTableViewCell.xib */; };
+		BCB13BE62DA5707700F6DC31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BE52DA5707700F6DC31 /* AppDelegate.swift */; };
+		BCB13BE82DA5707700F6DC31 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BE72DA5707700F6DC31 /* SceneDelegate.swift */; };
+		BCB13BED2DA5707700F6DC31 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCB13BEC2DA5707700F6DC31 /* Base */; };
+		BCB13BEF2DA5707900F6DC31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BCB13BEE2DA5707900F6DC31 /* Assets.xcassets */; };
+		BCB13BF22DA5707900F6DC31 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BCB13BF12DA5707900F6DC31 /* Base */; };
+		BCB13BFB2DA5711100F6DC31 /* DataRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BFA2DA5711100F6DC31 /* DataRepository.swift */; };
+		BCB13BFD2DA5712100F6DC31 /* AllApiList.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BFC2DA5712100F6DC31 /* AllApiList.swift */; };
+		BCB13BFF2DA5712900F6DC31 /* RequestHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13BFE2DA5712900F6DC31 /* RequestHelper.swift */; };
+		BCB13C022DA571A400F6DC31 /* CountryList_ResModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13C012DA571A400F6DC31 /* CountryList_ResModel.swift */; };
+		BCB13C052DA5724800F6DC31 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13C042DA5724800F6DC31 /* CountryListViewController.swift */; };
+		BCB13C092DA572EC00F6DC31 /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13C072DA572EC00F6DC31 /* CountryListTableViewCell.swift */; };
+		BCB13C0A2DA572EC00F6DC31 /* CountryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB13C082DA572EC00F6DC31 /* CountryListTableViewCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		239ADC1EFF2A19150AB1EAB0 /* Pods_SunilPracticalAvdevs.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SunilPracticalAvdevs.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75A33006190FC08127CA356E /* Pods-SunilPracticalAvdevs.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunilPracticalAvdevs.release.xcconfig"; path = "Target Support Files/Pods-SunilPracticalAvdevs/Pods-SunilPracticalAvdevs.release.xcconfig"; sourceTree = "<group>"; };
+		AD3CE09E84400E92DBC4BBFC /* Pods-SunilPracticalAvdevs.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SunilPracticalAvdevs.debug.xcconfig"; path = "Target Support Files/Pods-SunilPracticalAvdevs/Pods-SunilPracticalAvdevs.debug.xcconfig"; sourceTree = "<group>"; };
+		BC1916982DA5814B00B9D341 /* CountryDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryDetailViewController.swift; sourceTree = "<group>"; };
+		BC19169D2DA5862E00B9D341 /* BorderCountryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderCountryTableViewCell.swift; sourceTree = "<group>"; };
+		BC19169E2DA5862E00B9D341 /* BorderCountryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BorderCountryTableViewCell.xib; sourceTree = "<group>"; };
+		BCB13BE22DA5707700F6DC31 /* SunilPracticalAvdevs.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SunilPracticalAvdevs.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BCB13BE52DA5707700F6DC31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BCB13BE72DA5707700F6DC31 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BCB13BEC2DA5707700F6DC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BCB13BEE2DA5707900F6DC31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BCB13BF12DA5707900F6DC31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BCB13BF32DA5707900F6DC31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BCB13BFA2DA5711100F6DC31 /* DataRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataRepository.swift; sourceTree = "<group>"; };
+		BCB13BFC2DA5712100F6DC31 /* AllApiList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllApiList.swift; sourceTree = "<group>"; };
+		BCB13BFE2DA5712900F6DC31 /* RequestHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestHelper.swift; sourceTree = "<group>"; };
+		BCB13C012DA571A400F6DC31 /* CountryList_ResModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryList_ResModel.swift; sourceTree = "<group>"; };
+		BCB13C042DA5724800F6DC31 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
+		BCB13C072DA572EC00F6DC31 /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
+		BCB13C082DA572EC00F6DC31 /* CountryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListTableViewCell.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BCB13BDF2DA5707700F6DC31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9138DC620B6F13D0FF05DB6F /* Pods_SunilPracticalAvdevs.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0502D8E76B82A4F3D603E487 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AD3CE09E84400E92DBC4BBFC /* Pods-SunilPracticalAvdevs.debug.xcconfig */,
+				75A33006190FC08127CA356E /* Pods-SunilPracticalAvdevs.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		BC1916972DA5810600B9D341 /* Country Detail ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BC19169A2DA585FE00B9D341 /* cell */,
+				BC1916982DA5814B00B9D341 /* CountryDetailViewController.swift */,
+			);
+			path = "Country Detail ViewController";
+			sourceTree = "<group>";
+		};
+		BC19169A2DA585FE00B9D341 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				BC19169D2DA5862E00B9D341 /* BorderCountryTableViewCell.swift */,
+				BC19169E2DA5862E00B9D341 /* BorderCountryTableViewCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
+		BCB13BD92DA5707700F6DC31 = {
+			isa = PBXGroup;
+			children = (
+				BCB13BE42DA5707700F6DC31 /* SunilPracticalAvdevs */,
+				BCB13BE32DA5707700F6DC31 /* Products */,
+				0502D8E76B82A4F3D603E487 /* Pods */,
+				CD2B76EF0F9F946929DC18FD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BCB13BE32DA5707700F6DC31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BCB13BE22DA5707700F6DC31 /* SunilPracticalAvdevs.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BCB13BE42DA5707700F6DC31 /* SunilPracticalAvdevs */ = {
+			isa = PBXGroup;
+			children = (
+				BC1916972DA5810600B9D341 /* Country Detail ViewController */,
+				BCB13C032DA5720400F6DC31 /* CountryList ViewController */,
+				BCB13C002DA5719300F6DC31 /* Response Model */,
+				BCB13BF92DA570F500F6DC31 /* Networking */,
+				BCB13BE52DA5707700F6DC31 /* AppDelegate.swift */,
+				BCB13BE72DA5707700F6DC31 /* SceneDelegate.swift */,
+				BCB13BEB2DA5707700F6DC31 /* Main.storyboard */,
+				BCB13BEE2DA5707900F6DC31 /* Assets.xcassets */,
+				BCB13BF02DA5707900F6DC31 /* LaunchScreen.storyboard */,
+				BCB13BF32DA5707900F6DC31 /* Info.plist */,
+			);
+			path = SunilPracticalAvdevs;
+			sourceTree = "<group>";
+		};
+		BCB13BF92DA570F500F6DC31 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				BCB13BFA2DA5711100F6DC31 /* DataRepository.swift */,
+				BCB13BFC2DA5712100F6DC31 /* AllApiList.swift */,
+				BCB13BFE2DA5712900F6DC31 /* RequestHelper.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		BCB13C002DA5719300F6DC31 /* Response Model */ = {
+			isa = PBXGroup;
+			children = (
+				BCB13C012DA571A400F6DC31 /* CountryList_ResModel.swift */,
+			);
+			path = "Response Model";
+			sourceTree = "<group>";
+		};
+		BCB13C032DA5720400F6DC31 /* CountryList ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				BCB13C062DA572D600F6DC31 /* Country view cell */,
+				BCB13C042DA5724800F6DC31 /* CountryListViewController.swift */,
+			);
+			path = "CountryList ViewController";
+			sourceTree = "<group>";
+		};
+		BCB13C062DA572D600F6DC31 /* Country view cell */ = {
+			isa = PBXGroup;
+			children = (
+				BCB13C072DA572EC00F6DC31 /* CountryListTableViewCell.swift */,
+				BCB13C082DA572EC00F6DC31 /* CountryListTableViewCell.xib */,
+			);
+			path = "Country view cell";
+			sourceTree = "<group>";
+		};
+		CD2B76EF0F9F946929DC18FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				239ADC1EFF2A19150AB1EAB0 /* Pods_SunilPracticalAvdevs.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BCB13BE12DA5707700F6DC31 /* SunilPracticalAvdevs */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BCB13BF62DA5707900F6DC31 /* Build configuration list for PBXNativeTarget "SunilPracticalAvdevs" */;
+			buildPhases = (
+				19EE7A7A1F49513D399C989D /* [CP] Check Pods Manifest.lock */,
+				BCB13BDE2DA5707700F6DC31 /* Sources */,
+				BCB13BDF2DA5707700F6DC31 /* Frameworks */,
+				BCB13BE02DA5707700F6DC31 /* Resources */,
+				A2F9DAD2C182E92F8FB0AB04 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SunilPracticalAvdevs;
+			productName = SunilPracticalAvdevs;
+			productReference = BCB13BE22DA5707700F6DC31 /* SunilPracticalAvdevs.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BCB13BDA2DA5707700F6DC31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					BCB13BE12DA5707700F6DC31 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = BCB13BDD2DA5707700F6DC31 /* Build configuration list for PBXProject "SunilPracticalAvdevs" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BCB13BD92DA5707700F6DC31;
+			productRefGroup = BCB13BE32DA5707700F6DC31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCB13BE12DA5707700F6DC31 /* SunilPracticalAvdevs */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BCB13BE02DA5707700F6DC31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB13C0A2DA572EC00F6DC31 /* CountryListTableViewCell.xib in Resources */,
+				BCB13BEF2DA5707900F6DC31 /* Assets.xcassets in Resources */,
+				BC1916A02DA5862E00B9D341 /* BorderCountryTableViewCell.xib in Resources */,
+				BCB13BF22DA5707900F6DC31 /* Base in Resources */,
+				BCB13BED2DA5707700F6DC31 /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19EE7A7A1F49513D399C989D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SunilPracticalAvdevs-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A2F9DAD2C182E92F8FB0AB04 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunilPracticalAvdevs/Pods-SunilPracticalAvdevs-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SunilPracticalAvdevs/Pods-SunilPracticalAvdevs-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SunilPracticalAvdevs/Pods-SunilPracticalAvdevs-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BCB13BDE2DA5707700F6DC31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BCB13BFB2DA5711100F6DC31 /* DataRepository.swift in Sources */,
+				BCB13BFD2DA5712100F6DC31 /* AllApiList.swift in Sources */,
+				BCB13C052DA5724800F6DC31 /* CountryListViewController.swift in Sources */,
+				BCB13BFF2DA5712900F6DC31 /* RequestHelper.swift in Sources */,
+				BCB13C092DA572EC00F6DC31 /* CountryListTableViewCell.swift in Sources */,
+				BCB13BE62DA5707700F6DC31 /* AppDelegate.swift in Sources */,
+				BC1916992DA5814B00B9D341 /* CountryDetailViewController.swift in Sources */,
+				BCB13BE82DA5707700F6DC31 /* SceneDelegate.swift in Sources */,
+				BC19169F2DA5862E00B9D341 /* BorderCountryTableViewCell.swift in Sources */,
+				BCB13C022DA571A400F6DC31 /* CountryList_ResModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BCB13BEB2DA5707700F6DC31 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB13BEC2DA5707700F6DC31 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BCB13BF02DA5707900F6DC31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BCB13BF12DA5707900F6DC31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BCB13BF42DA5707900F6DC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BCB13BF52DA5707900F6DC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BCB13BF72DA5707900F6DC31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AD3CE09E84400E92DBC4BBFC /* Pods-SunilPracticalAvdevs.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunilPracticalAvdevs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sunilpractical.SunilPracticalAvdevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BCB13BF82DA5707900F6DC31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75A33006190FC08127CA356E /* Pods-SunilPracticalAvdevs.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SunilPracticalAvdevs/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = sunilpractical.SunilPracticalAvdevs;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BCB13BDD2DA5707700F6DC31 /* Build configuration list for PBXProject "SunilPracticalAvdevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB13BF42DA5707900F6DC31 /* Debug */,
+				BCB13BF52DA5707900F6DC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BCB13BF62DA5707900F6DC31 /* Build configuration list for PBXNativeTarget "SunilPracticalAvdevs" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BCB13BF72DA5707900F6DC31 /* Debug */,
+				BCB13BF82DA5707900F6DC31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BCB13BDA2DA5707700F6DC31 /* Project object */;
+}

@@ -1,0 +1,20 @@
+PODS:
+  - iOSDropDown (0.4.0)
+  - Kingfisher (8.2.0)
+
+DEPENDENCIES:
+  - iOSDropDown
+  - Kingfisher (~> 8.0)
+
+SPEC REPOS:
+  trunk:
+    - iOSDropDown
+    - Kingfisher
+
+SPEC CHECKSUMS:
+  iOSDropDown: ce9daa584eaa5567cafc1b633e3cc7eb6d9cea42
+  Kingfisher: 323e5c4ec7983aaace12af655a7b51a7f88a599d
+
+PODFILE CHECKSUM: 1aa2ea195f11516b1e6737d2d47a2e4fad4553c7
+
+COCOAPODS: 1.15.2
