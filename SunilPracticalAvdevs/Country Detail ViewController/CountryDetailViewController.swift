@@ -11,7 +11,6 @@ class CountryDetailViewController: UIViewController {
 
     var objCountryElement : CountryElement?
     
-    let ArrBorderCountry = ["AFG","KAZ","KGZ","TJK","TKM"]
     
     @IBOutlet weak var lblCountryName: UILabel!
     @IBOutlet weak var lblPopulation: UILabel!
@@ -38,13 +37,6 @@ class CountryDetailViewController: UIViewController {
     
     //MARK: - Setup Country Detail Data
     func setupCountryDetailData(){
-        
-//        lblCountryName.text = "Country Name: \(objCountryElement?.name.common ?? "")"
-//        lblPopulation.text = "Population: \(objCountryElement?.population ?? 0)"
-//        lblCapital.text = "Capital: \(objCountryElement?.capital.first ?? "")"
-//        lblRegion.text = "Region: \(objCountryElement?.region ?? "")"
-//        lblCurrency.text = "Currency: \(objCountryElement?.currencies.first?.value.name ?? "") (\(objCountryElement?.currencies.first?.value.symbol ?? ""))"
-//        
 
         self.lblCountryName.attributedText = AppData.setLabelMultipleColor(firstText: "Country Name: ", secondText: "\(objCountryElement?.name.common ?? "")", firstColor: UIColor.blue, secondColor: UIColor.black)
         
@@ -72,13 +64,13 @@ class CountryDetailViewController: UIViewController {
 // MARK: - UITableview Cell DataSource and Delegate Method
 extension CountryDetailViewController : UITableViewDataSource,UITableViewDelegate{
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return ArrBorderCountry.count
+        return objCountryElement?.borders.count ?? 1
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "BorderCountryTableViewCell", for: indexPath) as! BorderCountryTableViewCell
         
-        cell.lblName.text = "• \(ArrBorderCountry[indexPath.row])"
+        cell.lblName.text = "• \(objCountryElement?.borders[indexPath.row] ?? "")"
 
      
           return cell
