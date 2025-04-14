@@ -41,7 +41,15 @@ class CountryListViewController: UIViewController {
     
     override func viewWillAppear(_ animated: Bool) {
         //web API GET service called
-        webAPIServiceCalled()
+        //check internet connection
+        if Reachability.isConnectedToNetwork() {
+            webAPIServiceCalled()
+        }else{
+            let alert = UIAlertController(title: "", message: "Seems like you are not connected to internet", preferredStyle: UIAlertController.Style.alert)
+            alert.addAction(UIAlertAction(title: "OK", style: UIAlertAction.Style.default, handler: nil))
+            self.present(alert, animated: true, completion: nil)
+        }
+        
     }
 }
 
@@ -135,6 +143,11 @@ extension CountryListViewController : UISearchBarDelegate{
             tvCountryList.reloadData()
         }
     }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
+        {
+            self.searchBar.endEditing(true)
+        }
 }
 
 

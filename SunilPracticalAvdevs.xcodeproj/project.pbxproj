@@ -24,6 +24,7 @@
 		BCB13C052DA5724800F6DC31 /* CountryListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13C042DA5724800F6DC31 /* CountryListViewController.swift */; };
 		BCB13C092DA572EC00F6DC31 /* CountryListTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCB13C072DA572EC00F6DC31 /* CountryListTableViewCell.swift */; };
 		BCB13C0A2DA572EC00F6DC31 /* CountryListTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = BCB13C082DA572EC00F6DC31 /* CountryListTableViewCell.xib */; };
+		BCEEA3F82DACC63F005551B1 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = BCEEA3F72DACC63F005551B1 /* Reachability.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		BCB13C042DA5724800F6DC31 /* CountryListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListViewController.swift; sourceTree = "<group>"; };
 		BCB13C072DA572EC00F6DC31 /* CountryListTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountryListTableViewCell.swift; sourceTree = "<group>"; };
 		BCB13C082DA572EC00F6DC31 /* CountryListTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CountryListTableViewCell.xib; sourceTree = "<group>"; };
+		BCEEA3F72DACC63F005551B1 /* Reachability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,6 +133,7 @@
 				BCB13BFA2DA5711100F6DC31 /* DataRepository.swift */,
 				BCB13BFC2DA5712100F6DC31 /* AllApiList.swift */,
 				BCB13BFE2DA5712900F6DC31 /* RequestHelper.swift */,
+				BCEEA3F72DACC63F005551B1 /* Reachability.swift */,
 			);
 			path = Networking;
 			sourceTree = "<group>";
@@ -187,6 +190,8 @@
 			dependencies = (
 			);
 			name = SunilPracticalAvdevs;
+			packageProductDependencies = (
+			);
 			productName = SunilPracticalAvdevs;
 			productReference = BCB13BE22DA5707700F6DC31 /* SunilPracticalAvdevs.app */;
 			productType = "com.apple.product-type.application";
@@ -215,6 +220,8 @@
 				Base,
 			);
 			mainGroup = BCB13BD92DA5707700F6DC31;
+			packageReferences = (
+			);
 			productRefGroup = BCB13BE32DA5707700F6DC31 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -288,6 +295,7 @@
 			files = (
 				BCB13BFB2DA5711100F6DC31 /* DataRepository.swift in Sources */,
 				BCB13BFD2DA5712100F6DC31 /* AllApiList.swift in Sources */,
+				BCEEA3F82DACC63F005551B1 /* Reachability.swift in Sources */,
 				BCB13C052DA5724800F6DC31 /* CountryListViewController.swift in Sources */,
 				BCB13BFF2DA5712900F6DC31 /* RequestHelper.swift in Sources */,
 				BC9C5D662DA6D2420091E627 /* AppData.swift in Sources */,
@@ -447,8 +455,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLBKFVAW2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SunilPracticalAvdevs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -456,14 +466,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunilpractical.SunilPracticalAvdevs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yewapp.yew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -476,8 +488,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = JLBKFVAW2C;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SunilPracticalAvdevs/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -485,14 +499,16 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = sunilpractical.SunilPracticalAvdevs;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yewapp.yew;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
